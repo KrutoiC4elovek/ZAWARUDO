@@ -44,7 +44,7 @@ local Section = Tab:NewSection("Abillity fire")
 Section:NewLabel("Abbilki")
 
 -- Кнопка
-Section:NewButton("Brick abillka", "Use reverse glove abillku with out cooldown", function()
+Section:NewButton("Zawarudo abillka", "Use reverse glove abillku with out cooldown", function()
 	game:GetService("ReplicatedStorage").TimestopJump:FireServer(true)
 end)
 
